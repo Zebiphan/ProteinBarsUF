@@ -3,3 +3,11 @@ li {
     display: inline-block;
     font-family: 'comic-sans ms';
 }
+body {
+    background-image: url("kaka.jpg");
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+   }
