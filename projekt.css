@@ -1,14 +1,42 @@
+h1{
+    padding: 0;
+    margin: 0;
+}
+
 li {
     background-color: rgb(155, 93, 0);
     display: inline-block;
     font-family: 'comic-sans ms';
     margin-left: 5px;
 }
+
+html, body{
+    height: 100%;
+   
+}
+
 body {
-    background-image: url("kaka.jpg");
-    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    background: url("kaka.jpg") repeat-x fixed;
+}
+
+#wrapper{
+    background: url("kaka.jpg");
     background-repeat: no-repeat;
-    height: 842px;
     background-position: center;
+    height: 100%;
+    width: 100%;
     background-size: cover;
+    text-align: center
+}
+article{
+    
+       background-color: red;
    }
+
+   footer{
+    
+    background-color: red;
+    width: 100%;
+}
