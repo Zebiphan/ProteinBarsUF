@@ -2,12 +2,13 @@ li {
     background-color: rgb(155, 93, 0);
     display: inline-block;
     font-family: 'comic-sans ms';
+    margin-left: 5px;
 }
 body {
     background-image: url("kaka.jpg");
     background-color: #ffffff;
     background-repeat: no-repeat;
-    height: 800px;
+    height: 842px;
     background-position: center;
     background-size: cover;
    }
