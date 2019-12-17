@@ -1,19 +1,6 @@
-
-h1{
-    padding: 0;
-    margin: 0;
-}
-
-li {
-    background-color: rgb(155, 93, 0);
-    display: inline-block;
-    font-family: 'comic-sans ms';
-    margin-left: 5px;
-}
-
-html, body{
+html,
+body {
     height: 100%;
-   
 }
 
 body {
@@ -22,7 +9,8 @@ body {
     background: url("kaka.jpg") repeat-x fixed;
 }
 
-#wrapper{
+
+#wrapper {
     background: url("kaka.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -30,14 +18,38 @@ body {
     width: 100%;
     background-size: cover;
     text-align: center
-}
-article{
-    
-       background-color: red;
-   }
 
-   footer{
-    
+}
+
+article {
+    background-color: red;
+}
+
+footer {
     background-color: red;
     width: 100%;
+}
+
+nav {
+    background-color: rgb(95, 227, 211);
+    width: 600px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 13px;
+    display: inline-block;
+    text-align: center;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-right: 50px;
+    display: inline-block;
+}
+
+nav.hover {
+    background-color: bisque;
 }
